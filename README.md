@@ -4,7 +4,7 @@
  
 Agente consultor e especialista sênior com Inteligência Artificial em Cibersegurança, Application Security (AppSec), Threat Modeling e Engenharia de Segurança.
 
-O DIO Security Agent é um agente autônomo projetado para atuar com o rigor metodológico de um Lead Security Engineer ou AppSec Specialist. Ele não apenas aponta falhas teóricas, mas realiza análises de causa-raiz, aplica diretamente correções de código no padrão da indústria (Security by Default), avalia riscos conforme matrizes globais (OWASP, CWE, CVSS, MITRE ATT&CK, NIST) e gerencia repositórios locais de códigos remediados e relatórios executivos em PDF.
+O Security Agent é um agente autônomo projetado para atuar com o rigor metodológico de um Lead Security Engineer ou AppSec Specialist. Ele não apenas aponta falhas teóricas, mas realiza análises de causa-raiz, aplica diretamente correções de código no padrão da indústria (Security by Default), avalia riscos conforme matrizes globais (OWASP, CWE, CVSS, MITRE ATT&CK, NIST) e gerencia repositórios locais de códigos remediados e relatórios executivos em PDF.
 
 
 🎯 QUEM O AGENTE ATENDE
@@ -16,7 +16,7 @@ O DIO Security Agent é um agente autônomo projetado para atuar com o rigor met
 
 🚀 COMO EXECUTAR O AGENTE
 
-O DIO Security Agent é construído sobre o padrão aberto de especificação de agentes (AGENTS.md), sendo compatível nativamente com harnesses como Google Antigravity, Claude Code, Codex, entre outros.
+O Security Agent é construído sobre o padrão aberto de especificação de agentes (AGENTS.md), sendo compatível nativamente com harnesses como Google Antigravity, Claude Code, Codex, entre outros.
 
 1. Clonar o Repositório:
    git clone https://github.com/GiovaniDeAlencar/dio-security-agent.git
