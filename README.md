@@ -94,26 +94,24 @@ Classifique os riscos com STRIDE e ordene as mitigações por prioridade.
 
 O agente gerencia ativamente um diretório estruturado local de trabalho para armazenar os produtos de suas análises:
 
-dio-agent/
-└── Repositorio/
-    ├── Codigos/     # Códigos auditados e remediados prontos para produção
-    ├── Relatorios/  # Relatórios técnicos e sumários executivos (PDF / HTML)
-    └── Scripts/     # Scripts defensivos e ferramentas de automação homologadas
-
+Repositorio/
+Codigos - Códigos auditados e remediados prontos para produção
+Relatorios - Relatórios técnicos e sumários executivos (PDF / HTML)
+Scripts - Scripts defensivos e ferramentas de automação homologadas
 
 📁 ESTRUTURA DO REPOSITÓRIO
 
+AGENTS.md - Configuração mestre do agente e catálogo de skills
+CLAUDE.md - Ponto de entrada para Claude Code
+README.md - Documentação pública do projeto
+README.txt - Documentação em texto simples
 
-├── AGENTS.md        # Configuração mestre do agente e catálogo de skills
-├── CLAUDE.md        # Ponto de entrada para Claude Code
-├── README.md        # Documentação pública do projeto
-├── README.txt       # Documentação em texto simples
-├── agent/
-│   ├── persona.md   # Postura técnica, tom de voz e diretrizes de consultoria
-│   └── knowledge/   # Bases de conhecimento técnicas (OWASP, NIST, MITRE, DIO)
-├── skills/          # Guias procedurais detalhados para cada especialidade
-├── scripts/         # Scripts utilitários para conversão e compilação de relatórios
-└── Repositorio/     # Diretório persistente de artefatos gerados
+agent/
+persona.md - Postura técnica, tom de voz e diretrizes de consultoria
+knowledge - Bases de conhecimento técnicas (OWASP, NIST, MITRE, DIO)
+skills - Guias procedurais detalhados para cada especialidade
+scripts - Scripts utilitários para conversão e compilação de relatórios
+Repositorio - Diretório persistente de artefatos gerados
 
 ⚖️ PRINCÍPIOS ÉTICOS E OPERACIONAIS
 
