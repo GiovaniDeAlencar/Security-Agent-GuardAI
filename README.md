@@ -1,5 +1,7 @@
-🛡️ Security Agent - GuardAI
 
+                                         🛡️ Security Agent - GuardAI
+                                         
+ 
 Agente consultor e especialista sênior com Inteligência Artificial em Cibersegurança, Application Security (AppSec), Threat Modeling e Engenharia de Segurança.
 
 O DIO Security Agent é um agente autônomo projetado para atuar com o rigor metodológico de um Lead Security Engineer ou AppSec Specialist. Ele não apenas aponta falhas teóricas, mas realiza análises de causa-raiz, aplica diretamente correções de código no padrão da indústria (Security by Default), avalia riscos conforme matrizes globais (OWASP, CWE, CVSS, MITRE ATT&CK, NIST) e gerencia repositórios locais de códigos remediados e relatórios executivos em PDF.
@@ -93,24 +95,25 @@ Classifique os riscos com STRIDE e ordene as mitigações por prioridade.
 O agente gerencia ativamente um diretório estruturado local de trabalho para armazenar os produtos de suas análises:
 
 dio-agent/
-├── Repositorio/
-│   ├── Codigos/        # Códigos auditados e remediados prontos para produção
-│   ├── Relatorios/     # Relatórios técnicos e sumários executivos (PDF / HTML)
-│   └── Scripts/        # Scripts defensivos e ferramentas de automação homologadas
+└── Repositorio/
+    ├── Codigos/     # Códigos auditados e remediados prontos para produção
+    ├── Relatorios/  # Relatórios técnicos e sumários executivos (PDF / HTML)
+    └── Scripts/     # Scripts defensivos e ferramentas de automação homologadas
 
 
 📁 ESTRUTURA DO REPOSITÓRIO
 
-├── AGENTS.md                   # Configuração mestre do agente e catálogo de skills
-├── CLAUDE.md                   # Ponto de entrada para Claude Code
-├── README.md                   # Documentação pública do projeto (Markdown)
-├── README.txt                  # Documentação em texto simples (Bloco de Notas)
+
+├── AGENTS.md        # Configuração mestre do agente e catálogo de skills
+├── CLAUDE.md        # Ponto de entrada para Claude Code
+├── README.md        # Documentação pública do projeto
+├── README.txt       # Documentação em texto simples
 ├── agent/
-│   ├── persona.md              # Postura técnica, tom de voz e diretrizes de consultoria
-│   └── knowledge/              # Bases de conhecimento técnicas (OWASP, NIST, MITRE, DIO)
-├── skills/                     # Guias procedurais detalhados para cada especialidade
-├── scripts/                    # Scripts utilitários para conversão e compilação de relatórios
-└── Repositorio/                # Diretório persistente de artefatos gerados
+│   ├── persona.md   # Postura técnica, tom de voz e diretrizes de consultoria
+│   └── knowledge/   # Bases de conhecimento técnicas (OWASP, NIST, MITRE, DIO)
+├── skills/          # Guias procedurais detalhados para cada especialidade
+├── scripts/         # Scripts utilitários para conversão e compilação de relatórios
+└── Repositorio/     # Diretório persistente de artefatos gerados
 
 ⚖️ PRINCÍPIOS ÉTICOS E OPERACIONAIS
 
